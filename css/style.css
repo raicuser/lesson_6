@@ -1,0 +1,121 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.paragraph {
+	box-shadow: 5px 5px 5px 5px black;
+	margin: 0px 0px 30px 0px;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+	margin: 0px 0px 20px 0px;
+	text-shadow: 2px 2px 1px #000;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.text1,
+.text2,
+.text3 {
+	font-size: 18px;
+	max-width: 350px;
+	max-height: 200px;
+	display: inline-block;
+	margin: 0px 40px 0px 0px;
+}
+.text1 {
+	overflow: scroll;
+	margin-left: 10px;
+}
+
+.text2 {
+	overflow: auto;
+	text-align: center;
+}
+.text3 {
+	overflow: hidden;
+	text-align: right;
+}
+.image {
+	border-bottom: 4px solid red;
+	border-top: 4px dotted red;
+	border-left: 4px dashed #000;
+	padding: 0px 10px 0px 10px;
+	max-height: 400px;
+	overflow: auto;
+	margin: 0px 0px 30px 0px;
+}
+.image img {
+	width: 100%;
+	max-width: 400px;
+}
+.content {
+	box-shadow: inset -2px -2px 5px 5px black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px 0px 30px 0px;
+}
+.content p {
+	font-family: "Balsamiq Sans", cursive;
+	text-align: justify;
+	line-height: 20px;
+	opacity: 0.7;
+}
+.images {
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+	border: 2px dotted black;
+	border-radius: 50px 0 50px 0;
+}
+.images img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px 10px #000000;
+	margin: 0px 0px 0px 20px;
+}
